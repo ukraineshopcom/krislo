@@ -838,11 +838,11 @@ background: url(http://akum1.fox-fox.online/tovary/images/sale-bg.png) 0 0 no-re
               <div class="price_block clearfix">
                 <div class="price_item old">
                     <div class="text">Звичайна ціна:</div>
-                    <div class="value">5399 грн</div>
+                    <div class="value">8300 грн</div>
                 </div>
                 <div class="price_item new">
                     <div class="text"><span>Ви заощаджуєте -35%</span></div>
-                    <div class="value">3399 грн</div>
+                    <div class="value">5399 грн</div>
                 </div>
             </div>
             
@@ -853,121 +853,7 @@ background: url(http://akum1.fox-fox.online/tovary/images/sale-bg.png) 0 0 no-re
             </div>
             <div class="products_count">* Залишилось <b>9</b> крісел по акції</div>
       </div></section></div>
-
-
-
-
-
-      <section class="b1">
    
-        <h3 class="title white"><span>ОФІСНЕ СТАНДАРТНЕ КРІСЛО</span></h3>
-          <div class="slider-photo">
-             <div class="item">
-                <img class="img-text" src="./makar_files/e2.jpg">
-             </div>   
-
-             <h3 class="title white"><span>ВІДЕООГЛЯД</span></h3>
-
-             <video id="myVideo" width="480" height="270" controls>
-                <source src="./makar_files/vid1.MP4" type="video/mp4">
-                Ваш браузер не підтримує відео.
-            </video>
-            
-            <!-- Кнопка для відтворення відео -->
-            <button onclick="playVideo()"></button>
-
-           
-        
-            <script>
-                function playVideo() {
-                    var video = document.getElementById("myVideo");
-                    video.play(); // Запускає відео
-                    video.volume = 1.0; // Встановлює гучність на максимум (1.0 = 100%)
-                }
-            </script>
-
-<h4 class="title white"><span>Поєднання преміум-тканини з ергономічним дизайном та міцною конструкцією забезпечує бездоганний комфорт і довговічність. Регульоване сидіння, підлокітники та спинка легко налаштовуються під ваші потреби, а підтримка спини та подушка підвищують зручність. Плавне обертання та універсальні коліщатка забезпечують маневреність, а стильний дизайн додає елегантності вашому офісу.</span></h4>
-           
-
-
-      <br>
-      <ul class="char-list">
-        <li><b>▪️ Вага: 
-          </b> <span> 12кг </span></li>
-        <li><b>▪️ Розміри: 
-           </b> <span> висота 113-123см/ спинка 49х67см/ сидушка 49х48см</span></li>
-           <li><b>▪️ Макс. навантаження: 
-        </b> <span> 120кг </span></li><br>
-        <li><b>▪️ Матеріали: 
-        </b> <span> тканина, сітка, сталь, пластик </span></li>
-           <br>
-        </ul>
-         <div class="slider-photo">
-            <div class="item">
-               <img class="img-text" src="./makar_files/u1.jpg">
-            </div>
-         </div>
-
-        
-         <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                document.getElementById('order61').addEventListener('submit', function(e) {
-                    e.preventDefault(); // Запобігаємо стандартній відправці форми
-                 
-                    // Отримуємо значення полів форми
-                    var name = document.querySelector('input[name="name"]').value;
-                    var phone = document.querySelector('input[name="phone"]').value;
-                    
-                 
-                    // Формуємо повідомлення
-                    var message = `Нове замовлення (ОФІСНЕ СТАНДАРТНЕ КРІСЛО):\nІм'я та прізвище: ${name}\nТелефон: ${phone};`
-                 
-                    // Ваш токен та ID чату
-                    var token = '7409534800:AAEa1cPif560H9LNZ1jwK5DXP8R31iSFfFg';
-                    var chatId =  450863114; // Замініть YOUR_CHAT_ID на ваш реальний ID чату
-                 
-                    // Відправляємо повідомлення через Telegram API
-                    fetch('https://api.telegram.org/bot' + token + '/sendMessage', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({
-                            chat_id: chatId,
-                            text: message,
-                            parse_mode: "Markdown"
-                        })
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                        console.log('Success:', data);
-                        // Після успішної відправки, одразу перенаправляємо на сторінку "Дякую"
-                        window.location.href = "./makar_files/thank_you_page.html"; 
-                    })
-                    .catch((error) => {
-                        console.error('Error:', error);
-                        alert('Помилка при відправленні замовлення.');
-                    });
-                });
-            });
-          </script>
-          
-          <form id="order61" class="order_form" action="./makar_files/thank_you_page.html" method="get" name="order-form">
-              <input type="hidden" name="task" value="process">
-              <input type="hidden" name="country" value="ru">
-              
-            
-              
-              
-              <input class="field" type="text" name="name" placeholder="Введіть Ваше ім&#39;я та прізвище">
-              <input class="field" type="tel" name="phone" placeholder="Введіть Ваш телефон" required="">
-              
-              <button class="button">Замовити дане крісло </button>
-              
-
-          </form>
-
-</section>
 
 
 <section class="b1">
@@ -1598,11 +1484,11 @@ background: url(http://akum1.fox-fox.online/tovary/images/sale-bg.png) 0 0 no-re
             <div class="price_block clearfix">
                 <div class="price_item old">
                     <div class="text">Звичайна ціна:</div>
-                    <div class="value">5399 грн</div>
+                    <div class="value">8300 грн</div>
                 </div>
                 <div class="price_item new">
                     <div class="text"><span>Ви заощаджуєте -35%</span></div>
-                    <div class="value">від 3399грн</div>
+                    <div class="value">від 5399грн</div>
                 </div>
             </div>
             
